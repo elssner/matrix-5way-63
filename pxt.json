@@ -1,0 +1,26 @@
+{
+    "name": "matrix-5way-63",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "matrix": "github:calliope-net/matrix#v0.4.5",
+        "dip-switch": "github:calliope-net/dip-switch#v2.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
